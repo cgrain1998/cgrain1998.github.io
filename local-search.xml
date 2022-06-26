@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Python包管理</title>
+    <link href="/2022/06/26/Python%E5%8C%85%E7%AE%A1%E7%90%86/"/>
+    <url>/2022/06/26/Python%E5%8C%85%E7%AE%A1%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<p>在Python 包文件安装的过程中，pip install 下载包很慢，我们就需要借助其他源赖进行快速下载，下面是我找到的几个能够加速Python 包下载的镜像源 </p><h3 id="1-Python-加速下载"><a href="#1-Python-加速下载" class="headerlink" title="1  Python 加速下载"></a>1  Python 加速下载</h3><h4 id="1-1-源"><a href="#1-1-源" class="headerlink" title="1.1 源"></a>1.1 源</h4><h5 id="1-1-1-清华源"><a href="#1-1-1-清华源" class="headerlink" title="1.1.1 清华源"></a>1.1.1 清华源</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>pypi.tuna.tsinghua.edu.cn<span class="hljs-regexp">/simple/</span> <br><br></code></pre></td></tr></table></figure><h5 id="1-1-2-豆瓣源"><a href="#1-1-2-豆瓣源" class="headerlink" title="1.1.2 豆瓣源"></a>1.1.2 豆瓣源</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>pypi.doubanio.com<span class="hljs-regexp">/simple/</span> <br><br></code></pre></td></tr></table></figure><h3 id="2-包下载"><a href="#2-包下载" class="headerlink" title="2 包下载"></a>2 包下载</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">pip install -i https:<span class="hljs-regexp">//</span>pypi.doubanio.com<span class="hljs-regexp">/simple/</span> Django <br><br></code></pre></td></tr></table></figure><h3 id="包下载"><a href="#包下载" class="headerlink" title="包下载"></a>包下载</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs">包卸载 <br><br>pip uninstall xxx<br><br></code></pre></td></tr></table></figure><h3 id="4-包管理升级"><a href="#4-包管理升级" class="headerlink" title="4 包管理升级"></a>4 包管理升级</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs stylus"><br>升级pip<br>python -m pip install <span class="hljs-attr">--upgrade</span> pip -<span class="hljs-selector-tag">i</span> https:<span class="hljs-comment">//pypi.douban.com/simple </span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Python</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python包管理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>使用Hexo 搭建博客的第一篇文章</title>
+    <link href="/2022/06/26/hello-world/"/>
+    <url>/2022/06/26/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="创建一个新的文件夹"><a href="#创建一个新的文件夹" class="headerlink" title="创建一个新的文件夹"></a>创建一个新的文件夹</h3><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hexo <span class="hljs-keyword">new</span> page links   &gt;&gt; 这会创建一个links 的文件夹，文件夹下面创建一个<span class="hljs-keyword">index</span>.md<br></code></pre></td></tr></table></figure><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server  <br></code></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo s<br><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate  <br></code></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo g<br><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo d<br><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>入门</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
