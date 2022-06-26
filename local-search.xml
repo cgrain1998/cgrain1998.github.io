@@ -4,31 +4,6 @@
   
   
   <entry>
-    <title>Python包管理</title>
-    <link href="/2022/06/26/Python%E5%8C%85%E7%AE%A1%E7%90%86/"/>
-    <url>/2022/06/26/Python%E5%8C%85%E7%AE%A1%E7%90%86/</url>
-    
-    <content type="html"><![CDATA[<p>在Python 包文件安装的过程中，pip install 下载包很慢，我们就需要借助其他源赖进行快速下载，下面是我找到的几个能够加速Python 包下载的镜像源 </p><h3 id="1-Python-加速下载"><a href="#1-Python-加速下载" class="headerlink" title="1  Python 加速下载"></a>1  Python 加速下载</h3><h4 id="1-1-源"><a href="#1-1-源" class="headerlink" title="1.1 源"></a>1.1 源</h4><h5 id="1-1-1-清华源"><a href="#1-1-1-清华源" class="headerlink" title="1.1.1 清华源"></a>1.1.1 清华源</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>pypi.tuna.tsinghua.edu.cn<span class="hljs-regexp">/simple/</span> <br><br></code></pre></td></tr></table></figure><h5 id="1-1-2-豆瓣源"><a href="#1-1-2-豆瓣源" class="headerlink" title="1.1.2 豆瓣源"></a>1.1.2 豆瓣源</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>pypi.doubanio.com<span class="hljs-regexp">/simple/</span> <br><br></code></pre></td></tr></table></figure><h3 id="2-包下载"><a href="#2-包下载" class="headerlink" title="2 包下载"></a>2 包下载</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">pip install -i https:<span class="hljs-regexp">//</span>pypi.doubanio.com<span class="hljs-regexp">/simple/</span> Django <br><br></code></pre></td></tr></table></figure><h3 id="包下载"><a href="#包下载" class="headerlink" title="包下载"></a>包下载</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs">包卸载 <br><br>pip uninstall xxx<br><br></code></pre></td></tr></table></figure><h3 id="4-包管理升级"><a href="#4-包管理升级" class="headerlink" title="4 包管理升级"></a>4 包管理升级</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs stylus"><br>升级pip<br>python -m pip install <span class="hljs-attr">--upgrade</span> pip -<span class="hljs-selector-tag">i</span> https:<span class="hljs-comment">//pypi.douban.com/simple </span><br></code></pre></td></tr></table></figure>]]></content>
-    
-    
-    <categories>
-      
-      <category>Python</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Python包管理</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>使用Hexo 搭建博客的第一篇文章</title>
     <link href="/2022/06/26/hello-world/"/>
     <url>/2022/06/26/hello-world/</url>
@@ -46,6 +21,31 @@
     <tags>
       
       <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Python包管理</title>
+    <link href="/2022/06/26/Python%E5%8C%85%E7%AE%A1%E7%90%86/"/>
+    <url>/2022/06/26/Python%E5%8C%85%E7%AE%A1%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<p>在Python 包文件安装的过程中，pip install 下载包很慢，我们就需要借助其他源赖进行快速下载，下面是我找到的几个能够加速Python 包下载的镜像源 </p><h3 id="1-Python-加速下载"><a href="#1-Python-加速下载" class="headerlink" title="1  Python 加速下载"></a>1  Python 加速下载</h3><h4 id="1-1-源"><a href="#1-1-源" class="headerlink" title="1.1 源"></a>1.1 源</h4><h5 id="1-1-1-清华源"><a href="#1-1-1-清华源" class="headerlink" title="1.1.1 清华源"></a>1.1.1 清华源</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>pypi.tuna.tsinghua.edu.cn<span class="hljs-regexp">/simple/</span> <br><br></code></pre></td></tr></table></figure><h5 id="1-1-2-豆瓣源"><a href="#1-1-2-豆瓣源" class="headerlink" title="1.1.2 豆瓣源"></a>1.1.2 豆瓣源</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>pypi.doubanio.com<span class="hljs-regexp">/simple/</span> <br><br></code></pre></td></tr></table></figure><h3 id="2-包下载"><a href="#2-包下载" class="headerlink" title="2 包下载"></a>2 包下载</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">pip install -i https:<span class="hljs-regexp">//</span>pypi.doubanio.com<span class="hljs-regexp">/simple/</span> Django <br><br></code></pre></td></tr></table></figure><h3 id="包下载"><a href="#包下载" class="headerlink" title="包下载"></a>包下载</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs">包卸载 <br><br>pip uninstall xxx<br><br></code></pre></td></tr></table></figure><h3 id="4-包管理升级"><a href="#4-包管理升级" class="headerlink" title="4 包管理升级"></a>4 包管理升级</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs stylus"><br>升级pip<br>python -m pip install <span class="hljs-attr">--upgrade</span> pip -<span class="hljs-selector-tag">i</span> https:<span class="hljs-comment">//pypi.douban.com/simple </span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Python</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python包管理</tag>
       
     </tags>
     
