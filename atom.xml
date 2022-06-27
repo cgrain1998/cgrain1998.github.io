@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-26T14:23:25.598Z</updated>
+  <updated>2022-06-27T12:23:40.367Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>心情</title>
+    <link href="http://example.com/2022/06/27/%E5%BF%83%E6%83%85/"/>
+    <id>http://example.com/2022/06/27/%E5%BF%83%E6%83%85/</id>
+    <published>2022-06-27T12:22:50.164Z</published>
+    <updated>2022-06-27T12:23:40.367Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="调整文稿样式"><a href="#调整文稿样式" class="headerlink" title="调整文稿样式"></a>调整文稿样式</h1><p>Effie 使用标记语言调整文稿样式。</p><p>输入 &#x2F; ，使用快捷标记面板输入标记，也可以根据以下操作指引手动输入标记。</p><h2 id="输入标题输入标题"><a href="#输入标题输入标题" class="headerlink" title="输入标题输入标题"></a>输入标题输入标题</h2><p>在行首输入 # 然后空格，就可以输入标题了。</p><p>在行首输入 ## 空格是二级标题，以此类推，最多六级。</p><h2 id="给文字添加样式"><a href="#给文字添加样式" class="headerlink" title="给文字添加样式"></a>给文字添加样式</h2><p>在文字前后加一个星号是<em>斜体</em>，加两个星号是<strong>粗体</strong>，加两个冒号是标注，加两个波浪线是<del>删除</del>，加两个加号是评论。</p><blockquote><p>在行首输入 &gt; 然后空格，添加引用。</p></blockquote><p>在行首输入 %% 然后空格，添加注释。<br>输入三个减号并回车，即可插入分隔线。</p><hr><h2 id="插入代码"><a href="#插入代码" class="headerlink" title="插入代码"></a>插入代码</h2><p>在文字前后加一个重音符号（数字1左边的按键）表示代码，如：<code>hello_world.h</code></p><p>在行首输入两个重音符号并空格表示代码块，如：</p><p><code>#include &lt;stdio.h&gt;</code> int main() {<br><code>printf(&quot;Hello Creator!&quot;);</code> return 0;<br>&#96;&#96; }</p><h2 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h2><p>输入 * _ 等符号时，如不想触发样式，请在前面加  符号。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;调整文稿样式&quot;&gt;&lt;a href=&quot;#调整文稿样式&quot; class=&quot;headerlink&quot; title=&quot;调整文稿样式&quot;&gt;&lt;/a&gt;调整文稿样式&lt;/h1&gt;&lt;p&gt;Effie 使用标记语言调整文稿样式。&lt;/p&gt;
+&lt;p&gt;输入 &amp;#x2F; ，使用快捷标记面板输入标记，也可以</summary>
+      
+    
+    
+    
+    <category term="心情" scheme="http://example.com/categories/%E5%BF%83%E6%83%85/"/>
+    
+    
+    <category term="心情" scheme="http://example.com/tags/%E5%BF%83%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Hexo 搭建博客的第一篇文章</title>
