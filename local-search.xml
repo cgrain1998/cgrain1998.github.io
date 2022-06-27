@@ -4,23 +4,27 @@
   
   
   <entry>
-    <title>心情</title>
-    <link href="/2022/06/27/%E5%BF%83%E6%83%85/"/>
-    <url>/2022/06/27/%E5%BF%83%E6%83%85/</url>
+    <title>vscode+picgo插件_hexo_编写文章</title>
+    <link href="/2022/06/27/vscode-picgo%E6%8F%92%E4%BB%B6-hexo-%E7%BC%96%E5%86%99%E6%96%87%E7%AB%A0/"/>
+    <url>/2022/06/27/vscode-picgo%E6%8F%92%E4%BB%B6-hexo-%E7%BC%96%E5%86%99%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<h1 id="调整文稿样式"><a href="#调整文稿样式" class="headerlink" title="调整文稿样式"></a>调整文稿样式</h1><p>Effie 使用标记语言调整文稿样式。</p><p>输入 &#x2F; ，使用快捷标记面板输入标记，也可以根据以下操作指引手动输入标记。</p><h2 id="输入标题输入标题"><a href="#输入标题输入标题" class="headerlink" title="输入标题输入标题"></a>输入标题输入标题</h2><p>在行首输入 # 然后空格，就可以输入标题了。</p><p>在行首输入 ## 空格是二级标题，以此类推，最多六级。</p><h2 id="给文字添加样式"><a href="#给文字添加样式" class="headerlink" title="给文字添加样式"></a>给文字添加样式</h2><p>在文字前后加一个星号是<em>斜体</em>，加两个星号是<strong>粗体</strong>，加两个冒号是标注，加两个波浪线是<del>删除</del>，加两个加号是评论。</p><blockquote><p>在行首输入 &gt; 然后空格，添加引用。</p></blockquote><p>在行首输入 %% 然后空格，添加注释。<br>输入三个减号并回车，即可插入分隔线。</p><hr><h2 id="插入代码"><a href="#插入代码" class="headerlink" title="插入代码"></a>插入代码</h2><p>在文字前后加一个重音符号（数字1左边的按键）表示代码，如：<code>hello_world.h</code></p><p>在行首输入两个重音符号并空格表示代码块，如：</p><p><code>#include &lt;stdio.h&gt;</code> int main() {<br><code>printf(&quot;Hello Creator!&quot;);</code> return 0;<br>&#96;&#96; }</p><h2 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h2><p>输入 * _ 等符号时，如不想触发样式，请在前面加  符号。</p>]]></content>
+    <content type="html"><![CDATA[<p><strong>话不多说，效果如下：</strong><br><img src="https://cdn.jsdelivr.net/gh/cgrain1998/gitpic@main/blogs/pictures/20220627231620.png" alt="最终效果图"></p><p><img src="https://cdn.jsdelivr.net/gh/cgrain1998/gitpic@main/blogs/pictures/20220627225756.png" alt="Vscode 编辑图"></p><p><strong>我们是怎么搭建起来的呢？</strong></p><h4 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h4><blockquote><p><code>vscode</code> 搜索 <code>Picgo</code><br><img src="https://cdn.jsdelivr.net/gh/cgrain1998/gitpic@main/blogs/pictures/20220627225911.png" alt="Vscode 搜索插件"></p></blockquote><h4 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h4><p><img src="https://cdn.jsdelivr.net/gh/cgrain1998/gitpic@main/blogs/pictures/20220627225956.png" alt="进入设置"></p><h4 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h4><p><img src="https://cdn.jsdelivr.net/gh/cgrain1998/gitpic@main/blogs/pictures/20220627230326.png" alt="配置github"></p><blockquote><p><code>Current</code>  这里可以选很多，如 <code>github</code>，<code>gitee</code><br><code>Branch</code>  分支 ，默认只有<code>main</code> 我也没有创建其它分支了，所以就用这个了，如果这里改了，下面所有是<code>main</code>  的都要改成你写的分支，建议不要改<br><code>Custom Url</code> <a href="https://cdn.jsdelivr.net/gh/cgrain1998/gitpic@main">https://cdn.jsdelivr.net/gh/cgrain1998/gitpic@main</a> 可以表示成<br><a href="https://cdn.jsdelivr.net/gh/%E4%BD%A0%E7%9A%84github%E7%94%A8%E6%88%B7%E5%90%8D/%E4%BB%93%E5%BA%93@%E5%88%86%E6%94%AF%EF%BC%8C%E6%88%91%E8%BF%99%E9%87%8C%E6%98%AF%E4%B8%BB">https://cdn.jsdelivr.net/gh/你的github用户名/仓库@分支，我这里是主</a><br>blogs&#x2F;pictures&#x2F; 这里是路径，如果不想加路径就直接写一个 &#x2F;<br><code>Path</code>  github用户名&#x2F;仓库名称<br><code>Token</code>  生成地址 <a href="https://github.com/settings/tokens/new">Token 创建地址</a></p></blockquote><blockquote><p><a href="https://blog.csdn.net/weixin_43527871/article/details/107197708">Markdown 语法学习</a></p></blockquote>]]></content>
     
     
     <categories>
       
-      <category>心情</category>
+      <category>博客搭建</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>心情</tag>
+      <tag>Hexo</tag>
+      
+      <tag>Vscode</tag>
+      
+      <tag>Picgo</tag>
       
     </tags>
     
