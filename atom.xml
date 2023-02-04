@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-04T08:54:44.529Z</updated>
+  <updated>2023-02-04T09:38:16.373Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,28 +17,29 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>容器镜像学习笔记</title>
     <link href="http://example.com/2023/02/04/%E5%AE%B9%E5%99%A8%E9%95%9C%E5%83%8F/"/>
     <id>http://example.com/2023/02/04/%E5%AE%B9%E5%99%A8%E9%95%9C%E5%83%8F/</id>
-    <published>2023-02-04T08:34:58.354Z</published>
-    <updated>2023-02-04T08:54:44.529Z</updated>
+    <published>2023-02-04T08:34:58.000Z</published>
+    <updated>2023-02-04T09:38:16.373Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title: 容器镜像学习笔记<br>date: 2023-02-04 16:34:58<br>categories:</p><ul><li>虚拟化<br>tags:</li><li>学习笔记</li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>太久没写博客了，今天奖励自己一个学习笔记</p></blockquote><h3 id="0-物理机部署"><a href="#0-物理机部署" class="headerlink" title="0 物理机部署"></a>0 物理机部署</h3><p>早期的项目，大都是直接运行，把项目部署，这样子已经部署的项目会必不可少的受到影响，比如这个项目只能这个环境，但是另外一个项目必要升级才可以使用，这样只能在弄一台物理机部署这个项目，随着虚拟机的出现，上述问题有演变成 虚拟化部署。</p><h3 id="1-虚拟化部署"><a href="#1-虚拟化部署" class="headerlink" title="1 虚拟化部署"></a>1 虚拟化部署</h3><p>虚拟化，是指通过虚拟化技术将一台计算机虚拟为多台逻辑计算机。在一台计算机上同时运行多个逻辑计算机，每个逻辑计算机可运行不同的操作系统，并且应用程序都可以在相互独立的空间内运行而互不影响，从而显著提高计算机的工作效率。<br>这样在前期，或多或少的节流成本，项目环境隔离，可是每个虚拟机每次创建都是一个完整的操作系统，占用资源大，物理机必须扩容，容器的出现又演变成现在的容器化部署<br>比如 <code>vmware</code> 虚拟机</p><h3 id="2-容器化部署"><a href="#2-容器化部署" class="headerlink" title="2 容器化部署"></a>2 容器化部署</h3><p>容器化出现，不用每次都创建一个系统，需要什么环境就打包什么环境，资源隔离<br>常见的就是 <code> Docker</code></p><h3 id="3-为什么使用Docker"><a href="#3-为什么使用Docker" class="headerlink" title="3 为什么使用Docker"></a>3 为什么使用Docker</h3><p><img src="https://raw.githubusercontent.com/cgrain1998/gitpic/main/marktext20230204173718.png" alt="marktext20230204173718"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;title: 容器镜像学习笔记&lt;br&gt;date: 2023-02-04 16:34:58&lt;br&gt;categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;虚拟化&lt;br&gt;tags:&lt;/li&gt;
-&lt;li&gt;学习笔记&lt;/li&gt;
-&lt;/ul&gt;
-</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;太久没写博客了，今天奖励自己一个学习笔记&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;0-物理机部署&quot;&gt;&lt;a href=&quot;#0-物理机部署&quot; class=&quot;headerlink&quot; title=&quot;0 物理机部署&quot;&gt;&lt;/a&gt;0 物理机部署&lt;/h</summary>
       
     
     
     
+    <category term="虚拟化" scheme="http://example.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+    
+    
+    <category term="学习笔记" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
